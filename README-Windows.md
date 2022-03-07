@@ -1,10 +1,6 @@
 # Welcome to Shopping Cart
 
 
-*Read this in other languages: [English](README.md), [Português do Brasil](README.pt-br.md).*
-
-*For Visual Studio users on Windows - [please read this](README-Windows.md).*
-
 This is where you can start to get familiar with the problem and what you need to run it.
 This codebase is used during pairing session for JOI initiative.
 It's focused on identifying code smells, refactoring and testing legacy codebase while promoting
@@ -17,8 +13,6 @@ We have an existing shopping cart application, with a small set of eCommerce/sho
 ## Technology used
 
 - C++11
-- CMake - build tool
-- Conan - dependency management
 - Google Test - unit testing framework
 
 ## Before the interview
@@ -27,39 +21,27 @@ Get familiar with the codebase! Make sure you have the necessary dependencies in
 
 ## What you need to run it
 
-- C++ Compiler
-- [Conan](https://conan.io/downloads.html)
-- [Cmake](https://cmake.org/download/)
-
-## Install Dependency
-```console
-mkdir build
-cd build
-conan install ..
-```
+- Visual Studio 2022
 
 ## Build
 
-```console
-cd build
-cmake .. && cmake --build .
-```
+Assume Visual Studio 2022 is already installed, double click joi-grad-shopping-cart-cpp.sln to open the solution.
+
+Build the solution from the Build -> Build Solution menu.
 
 ## Run Tests
 
-```console
-cd build
-./joi_grad_shopping_cart_cpp_test
-```
+Under Solution Explorer, right click joi-grad-shopping-cart-cpp-test and select Set as Startup Project from the popup menu.
+
+Run the project from the Debug -> Start Debugging menu.
 
 ## Run the Sample Application
 
-To understand how this library would be used you can check the `main` method in the `src/main.cc` file. If you want to see the results, run:
+To understand how this library would be used you can check the `main` method in the `src/main.cc` file. If you want to see the results, follow the following steps to run:
 
-```console
-cd build
-./joi_grad_shopping_cart_cpp
-```
+Under Solution Explorer, right click joi-grad-shopping-cart-cpp and select Set as Startup Project from the popup menu.
+
+Run the project from the Debug -> Start Debugging menu.
 
 ## Existing Business Rules
 
