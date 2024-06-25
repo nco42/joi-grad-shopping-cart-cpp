@@ -31,4 +31,6 @@
 *.out
 *.app
 
-build
+build/
+.idea/
+venv/
